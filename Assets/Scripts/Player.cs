@@ -61,4 +61,5 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         _resetJump = false;
     }
+
 }
