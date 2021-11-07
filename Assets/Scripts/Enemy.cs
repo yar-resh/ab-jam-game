@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public EnemyPath Path;
+    public GameObject SpawnPosition;
     public float Speed = 2f;
     public float Delta = 0.2f;
 
@@ -38,5 +39,14 @@ public class Enemy : MonoBehaviour
             transform.Translate(direction * Speed * Time.deltaTime);
             
         }
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            other.transform.position = SpawnPosition.transform.position;
+        }
+
     }
 }
