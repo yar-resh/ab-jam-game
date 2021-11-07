@@ -199,6 +199,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3820017}
     m_Modifications:
+    - target: {fileID: 3666838029135187216, guid: c8c096121a4167a4bac3cc373c7fb41b, type: 3}
+      propertyPath: SpawnPoint
+      value: 
+      objectReference: {fileID: 1535196378}
     - target: {fileID: 3666838029135187231, guid: c8c096121a4167a4bac3cc373c7fb41b, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -290,6 +294,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3820017}
     m_Modifications:
+    - target: {fileID: 3666838029135187216, guid: c8c096121a4167a4bac3cc373c7fb41b, type: 3}
+      propertyPath: SpawnPoint
+      value: 
+      objectReference: {fileID: 1535196378}
     - target: {fileID: 3666838029135187231, guid: c8c096121a4167a4bac3cc373c7fb41b, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -1911,6 +1919,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3820017}
     m_Modifications:
+    - target: {fileID: 3666838029135187216, guid: c8c096121a4167a4bac3cc373c7fb41b, type: 3}
+      propertyPath: SpawnPoint
+      value: 
+      objectReference: {fileID: 1535196378}
     - target: {fileID: 3666838029135187231, guid: c8c096121a4167a4bac3cc373c7fb41b, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -3050,7 +3062,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7785888, y: 1}
+    m_SensorSize: {x: 1.7779887, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -10444,6 +10456,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3820017}
     m_Modifications:
+    - target: {fileID: 3666838029135187216, guid: c8c096121a4167a4bac3cc373c7fb41b, type: 3}
+      propertyPath: SpawnPoint
+      value: 
+      objectReference: {fileID: 1535196378}
     - target: {fileID: 4472054354313103963, guid: c8c096121a4167a4bac3cc373c7fb41b, type: 3}
       propertyPath: m_Name
       value: Fire
